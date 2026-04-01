@@ -1,0 +1,8 @@
+{
+  "cardType": "chat",
+  "header": "🤩 New Nomads.com chat",
+  "image": "images/telegram.png",
+  "imageAlt": "chat",
+  "ctaText": "Join the chat",
+  "ctaHref": "#"
+}

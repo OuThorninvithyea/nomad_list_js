@@ -1,0 +1,34 @@
+{
+  "cardType": "meetups",
+  "header": "🥥 Next meetups (15/mo)",
+  "footerText": "See upcoming meetups →",
+  "footerHref": "#",
+  "days": [
+    {
+      "cityImage": "images/asuncion-paraguay.webp",
+      "cityImageAlt": "Asuncion",
+      "schedule": "Mon 9th Mar: Barcelona",
+      "rsvps": "1 RSVPS",
+      "attendees": [
+        { "img": "images/profile-13.jpg" },
+        { "img": "images/profile-7.jpg" }
+      ]
+    },
+    {
+      "cityImage": "images/barcelona-spain.webp",
+      "cityImageAlt": "Barcelona",
+      "schedule": "Thu 5th Mar: Asuncion",
+      "rsvps": "3 RSVPS",
+      "attendees": [
+        { "img": "images/profile-15.jpg" },
+        { "img": "images/profile-4.jpg" },
+        { "img": "images/profile-10.jpg" },
+        { "img": "images/profile-1.jpg" },
+        { "img": "images/profile-8.jpg" },
+        { "img": "images/profile-9.jpg" },
+        { "img": "images/profile-4.webp" },
+        { "img": "images/profile-14.webp" }
+      ]
+    }
+  ]
+}

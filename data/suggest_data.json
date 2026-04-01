@@ -1,0 +1,16 @@
+{
+  "cardType": "suggest",
+  "label": "nomad.com suggestion",
+  "image": "images/portugal.webp",
+  "imageAlt": "Porto",
+  "rank": 1,
+  "speed": 65,
+  "country": "Portugal",
+  "city": "Porto",
+  "weatherEmoji": "🌤️",
+  "temp": 19,
+  "tempEmoji": "😊",
+  "aqi": 22,
+  "aqiEmoji": "😷",
+  "cost": "$2200/mo"
+}

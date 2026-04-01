@@ -1,0 +1,38 @@
+{
+  "hoverHeader": {
+    "closeTooltip": "Hide this, it will come back if you filter or reload Nomads.com",
+    "closeLabel": "×"
+  },
+  "ratings": [
+    {
+      "emoji": "⭐️",
+      "label": "Overall",
+      "color": "green",
+      "width": 85
+    },
+    {
+      "emoji": "💵",
+      "label": "Cost",
+      "color": "green",
+      "width": 95
+    },
+    {
+      "emoji": "📡",
+      "label": "Internet",
+      "color": "red",
+      "width": 40
+    },
+    {
+      "emoji": "👍",
+      "label": "Liked",
+      "color": "yellow",
+      "width": 88
+    },
+    {
+      "emoji": "👮",
+      "label": "Safety",
+      "color": "green",
+      "width": 85
+    }
+  ]
+}

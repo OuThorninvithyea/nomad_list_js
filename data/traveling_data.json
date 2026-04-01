@@ -1,0 +1,27 @@
+{
+  "cardType": "profileGrid",
+  "header": "🛩️ Traveling Now (13)",
+  "privacyText": "Hidden for non-members due to privacy",
+  "members": [
+    { "thumb": "images/profile-10.jpg", "blur": "images/profile-10.jpg" },
+    { "thumb": "images/profile-3.jpg",  "blur": "images/profile-3.jpg"  },
+    { "thumb": "images/profile-7.jpg",  "blur": "images/profile-7.jpg"  },
+    { "thumb": "images/profile-3.jpg",  "blur": "images/profile-8.jpg"  },
+    { "thumb": "images/profile-5.jpg",  "blur": "images/profile-5.jpg"  },
+    { "thumb": "images/profile-2.jpg",  "blur": "images/profile-2.jpg"  },
+    { "thumb": "images/profile-8.jpg",  "blur": "images/profile-8.jpg"  },
+    { "thumb": "images/profile-14.jpg", "blur": "images/profile-14.jpg" },
+    { "thumb": "images/profile-1.jpg",  "blur": "images/profile-1.jpg"  },
+    { "thumb": "images/profile-3.jpg",  "blur": "images/profile-1.jpg"  },
+    { "thumb": "images/profile-6.jpg",  "blur": "images/profile-1.jpg"  },
+    { "thumb": "images/profile-8.jpg",  "blur": "images/profile-1.jpg"  },
+    { "thumb": "images/profile-10.jpg", "blur": "images/profile-4.jpg"  },
+    { "thumb": "images/profile-6.jpg",  "blur": "images/profile-6.jpg"  },
+    { "thumb": "images/profile-11.jpg", "blur": "images/profile-11.jpg" },
+    { "thumb": "images/profile-15.jpg", "blur": "images/profile-15.jpg" },
+    { "thumb": "images/profile-4.jpg",  "blur": "images/profile-4.jpg"  },
+    { "thumb": "images/profile-9.jpg",  "blur": "images/profile-1.jpg"  },
+    { "thumb": "images/profile-13.jpg", "blur": "images/profile-13.jpg" },
+    { "thumb": "images/profile-10.jpg", "blur": "images/profile-10.jpg" }
+  ]
+}

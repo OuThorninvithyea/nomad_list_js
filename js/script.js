@@ -27,13 +27,13 @@ filterToggle.addEventListener("click", () => {
 });
 
 // popup ad
-// const popup = document.querySelector('.background-pop-up-ads');
-// if (popup) {
-//   setTimeout(function () { popup.style.display = 'flex'; }, 1000);
-//   popup.addEventListener('click', function (e) {
-//     if (e.target === popup) popup.style.display = 'none';
-//   });
-// }
+const popup = document.querySelector('.background-pop-up-ads');
+if (popup) {
+  setTimeout(function () { popup.style.display = 'flex'; }, 1000);
+  popup.addEventListener('click', function (e) {
+    if (e.target === popup) popup.style.display = 'none';
+  });
+}
 
 // core comepare toggle, trun to exit compare
 compare.addEventListener("click", () => {

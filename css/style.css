@@ -102,7 +102,7 @@ h6 {
 /* Cards expand to full width when filter is open */
 
 /* no warping text for meetups*/
-.main-content.filter-open .sidebar-boxs.meetups {
+.main-content.filter-open .sidebar-boxs#meetups {
   white-space: nowrap;
 }
 /* no warping text for meetups */
@@ -2009,7 +2009,7 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
   overflow: clip;
 }
 
-.sidebar-boxs.ad-one:hover {
+.sidebar-boxs#ad-one:hover {
   cursor: pointer;
   background-color: rgba(226, 225, 225, 0.2);
 }
@@ -2021,14 +2021,14 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 /* Common sidebar card style — bordered box, centered content */
 
 /* Place sidebar cards in the last column of the grid */
-.main-boxs>.ad-one,
-.main-boxs>.meetups,
-.main-boxs>.today-pick,
-.main-boxs>.traveling,
-.main-boxs>.new-member,
-.main-boxs>.suggest,
-.main-boxs>.ad-two,
-.main-boxs>.chat {
+.main-boxs>#ad-one,
+.main-boxs>#meetups,
+.main-boxs>#today-pick,
+.main-boxs>#traveling,
+.main-boxs>#new-member,
+.main-boxs>#suggest,
+.main-boxs>#ad-two,
+.main-boxs>#chat {
   grid-column: -2 / -1;
   order: -1;
 }
@@ -2101,7 +2101,7 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 /* Meetups sidebar card */
 
 /* Meetups card */
-.sidebar-boxs.meetups {
+.sidebar-boxs#meetups {
   display: flex;
   font-size: 15px;
   font-weight: 700;
@@ -2123,7 +2123,7 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 /* Inner meetups scroll container */
 
 /* Meetup profile avatar */
-.sidebar-boxs.meetups img {
+.sidebar-boxs#meetups img {
   width: 30px;
   border-radius: 50%;
   border-color: 1px soild var(--color-border);
@@ -2211,7 +2211,9 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 
 /* Two-profile avatar row */
 .two-profile {
+  width: 200px;
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
   flex-direction: row;
 }
@@ -2241,18 +2243,18 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 
 /* Today's pick sidebar card */
 
-/* Today's pick with label compound selector */
-.sidebar-boxs.today-pick.today-label {
+/* Today's pick layout */
+.sidebar-boxs#today-pick {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
 }
-/* Today's pick with label compound selector */
+/* Today's pick layout */
 
 /* Today's pick overlay text */
-.sidebar-boxs.today-pick.today-label p {
+.sidebar-boxs#today-pick p {
   position: absolute;
   font-size: 17px;
   font-weight: bold;
@@ -2264,7 +2266,7 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 /* Today's pick overlay text */
 
 /* Today's pick card */
-.sidebar-boxs.today-pick {
+.sidebar-boxs#today-pick {
   display: flex;
   flex-direction: column;
   background-image: url("../images/malayisa.jpg");
@@ -2273,14 +2275,14 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
   background-repeat: no-repeat;
 }
 
-.sidebar-boxs.today-pick .background-image:hover {
+.sidebar-boxs#today-pick .background-image:hover {
   cursor: pointer;
   filter: brightness(0.5);
 }
 /* Today's pick card */
 
 /* Today's pick city name */
-.sidebar-boxs.today-pick h3 {
+.sidebar-boxs#today-pick h3 {
   width: 139px;
   align-items: center;
   justify-content: center;
@@ -2293,7 +2295,7 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 /* Today's pick city name */
 
 /* "Today's pick" label badge */
-.sidebar-boxs.today-pick .today-label {
+.sidebar-boxs#today-pick .today-label {
   position: absolute;
   font-size: 13px;
   padding: 2px;
@@ -2406,9 +2408,12 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 /* Suggest destination card */
 
 /* Suggest card */
-.boxs.suggest {
+.boxs#suggest {
   background-color: var(--color-primary);
   border: 7px solid var(--color-primary);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* Suggest card */
 
@@ -2826,14 +2831,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     overflow: hidden;
   }
 
-  .main-content.filter-open .main-boxs>.ad-one,
-  .main-content.filter-open .main-boxs>.meetups,
-  .main-content.filter-open .main-boxs>.today-pick,
-  .main-content.filter-open .main-boxs>.traveling,
-  .main-content.filter-open .main-boxs>.new-member,
-  .main-content.filter-open .main-boxs>.suggest,
-  .main-content.filter-open .main-boxs>.ad-two,
-  .main-content.filter-open .main-boxs>.chat {
+  .main-content.filter-open .main-boxs>#ad-one,
+  .main-content.filter-open .main-boxs>#meetups,
+  .main-content.filter-open .main-boxs>#today-pick,
+  .main-content.filter-open .main-boxs>#traveling,
+  .main-content.filter-open .main-boxs>#new-member,
+  .main-content.filter-open .main-boxs>#suggest,
+  .main-content.filter-open .main-boxs>#ad-two,
+  .main-content.filter-open .main-boxs>#chat {
     grid-column: 7;
   }
 
@@ -2851,14 +2856,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     max-width: 339px;
   }
 
-  .main-boxs>.ad-one,
-  .main-boxs>.meetups,
-  .main-boxs>.today-pick,
-  .main-boxs>.traveling,
-  .main-boxs>.new-member,
-  .main-boxs>.suggest,
-  .main-boxs>.ad-two,
-  .main-boxs>.chat {
+  .main-boxs>#ad-one,
+  .main-boxs>#meetups,
+  .main-boxs>#today-pick,
+  .main-boxs>#traveling,
+  .main-boxs>#new-member,
+  .main-boxs>#suggest,
+  .main-boxs>#ad-two,
+  .main-boxs>#chat {
     grid-column: 9;
     order: -1;
   }
@@ -2874,14 +2879,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     overflow: hidden;
   }
 
-  .main-content.filter-open .main-boxs>.ad-one,
-  .main-content.filter-open .main-boxs>.meetups,
-  .main-content.filter-open .main-boxs>.today-pick,
-  .main-content.filter-open .main-boxs>.traveling,
-  .main-content.filter-open .main-boxs>.new-member,
-  .main-content.filter-open .main-boxs>.suggest,
-  .main-content.filter-open .main-boxs>.ad-two,
-  .main-content.filter-open .main-boxs>.chat {
+  .main-content.filter-open .main-boxs>#ad-one,
+  .main-content.filter-open .main-boxs>#meetups,
+  .main-content.filter-open .main-boxs>#today-pick,
+  .main-content.filter-open .main-boxs>#traveling,
+  .main-content.filter-open .main-boxs>#new-member,
+  .main-content.filter-open .main-boxs>#suggest,
+  .main-content.filter-open .main-boxs>#ad-two,
+  .main-content.filter-open .main-boxs>#chat {
     grid-column: 3;
   }
 
@@ -2901,14 +2906,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     max-width: 339px;
   }
 
-  .main-boxs>.ad-one,
-  .main-boxs>.meetups,
-  .main-boxs>.today-pick,
-  .main-boxs>.traveling,
-  .main-boxs>.new-member,
-  .main-boxs>.suggest,
-  .main-boxs>.ad-two,
-  .main-boxs>.chat {
+  .main-boxs>#ad-one,
+  .main-boxs>#meetups,
+  .main-boxs>#today-pick,
+  .main-boxs>#traveling,
+  .main-boxs>#new-member,
+  .main-boxs>#suggest,
+  .main-boxs>#ad-two,
+  .main-boxs>#chat {
     grid-column: 5;
     order: -1;
   }
@@ -2924,14 +2929,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     overflow: hidden;
   }
 
-  .main-content.filter-open .main-boxs>.ad-one,
-  .main-content.filter-open .main-boxs>.meetups,
-  .main-content.filter-open .main-boxs>.today-pick,
-  .main-content.filter-open .main-boxs>.traveling,
-  .main-content.filter-open .main-boxs>.new-member,
-  .main-content.filter-open .main-boxs>.suggest,
-  .main-content.filter-open .main-boxs>.ad-two,
-  .main-content.filter-open .main-boxs>.chat {
+  .main-content.filter-open .main-boxs>#ad-one,
+  .main-content.filter-open .main-boxs>#meetups,
+  .main-content.filter-open .main-boxs>#today-pick,
+  .main-content.filter-open .main-boxs>#traveling,
+  .main-content.filter-open .main-boxs>#new-member,
+  .main-content.filter-open .main-boxs>#suggest,
+  .main-content.filter-open .main-boxs>#ad-two,
+  .main-content.filter-open .main-boxs>#chat {
     grid-column: 3;
   }
 
@@ -2949,14 +2954,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     max-width: 260px;
   }
 
-  .main-boxs>.ad-one,
-  .main-boxs>.meetups,
-  .main-boxs>.today-pick,
-  .main-boxs>.traveling,
-  .main-boxs>.new-member,
-  .main-boxs>.suggest,
-  .main-boxs>.ad-two,
-  .main-boxs>.chat {
+  .main-boxs>#ad-one,
+  .main-boxs>#meetups,
+  .main-boxs>#today-pick,
+  .main-boxs>#traveling,
+  .main-boxs>#new-member,
+  .main-boxs>#suggest,
+  .main-boxs>#ad-two,
+  .main-boxs>#chat {
     grid-column: 5;
     order: -1;
   }
@@ -3026,14 +3031,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     max-width: 257.59px;
   }
 
-  .main-boxs>.ad-one,
-  .main-boxs>.meetups,
-  .main-boxs>.today-pick,
-  .main-boxs>.traveling,
-  .main-boxs>.new-member,
-  .main-boxs>.suggest,
-  .main-boxs>.ad-two,
-  .main-boxs>.chat {
+  .main-boxs>#ad-one,
+  .main-boxs>#meetups,
+  .main-boxs>#today-pick,
+  .main-boxs>#traveling,
+  .main-boxs>#new-member,
+  .main-boxs>#suggest,
+  .main-boxs>#ad-two,
+  .main-boxs>#chat {
     grid-column: 3;
     order: -1;
   }
@@ -3120,14 +3125,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     max-width: 100%;
   }
 
-  .main-boxs>.ad-one,
-  .main-boxs>.meetups,
-  .main-boxs>.today-pick,
-  .main-boxs>.traveling,
-  .main-boxs>.new-member,
-  .main-boxs>.suggest,
-  .main-boxs>.ad-two,
-  .main-boxs>.chat {
+  .main-boxs>#ad-one,
+  .main-boxs>#meetups,
+  .main-boxs>#today-pick,
+  .main-boxs>#traveling,
+  .main-boxs>#new-member,
+  .main-boxs>#suggest,
+  .main-boxs>#ad-two,
+  .main-boxs>#chat {
     grid-column: 2;
     order: -1;
   }
@@ -3204,14 +3209,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
     max-width: 100%;
   }
 
-  .main-boxs>.ad-one,
-  .main-boxs>.meetups,
-  .main-boxs>.today-pick,
-  .main-boxs>.traveling,
-  .main-boxs>.new-member,
-  .main-boxs>.suggest,
-  .main-boxs>.ad-two,
-  .main-boxs>.chat {
+  .main-boxs>#ad-one,
+  .main-boxs>#meetups,
+  .main-boxs>#today-pick,
+  .main-boxs>#traveling,
+  .main-boxs>#new-member,
+  .main-boxs>#suggest,
+  .main-boxs>#ad-two,
+  .main-boxs>#chat {
     grid-column: 1;
     order: 1;
   }
@@ -3236,14 +3241,14 @@ border: 2px solid rgba(249, 153, 150, 0.85);
   }
 
   /* Sidebar cards flow inline instead of pinned to last column */
-  .main-boxs>.ad-one,
-  .main-boxs>.meetups,
-  .main-boxs>.today-pick,
-  .main-boxs>.traveling,
-  .main-boxs>.new-member,
-  .main-boxs>.suggest,
-  .main-boxs>.ad-two,
-  .main-boxs>.chat {
+  .main-boxs>#ad-one,
+  .main-boxs>#meetups,
+  .main-boxs>#today-pick,
+  .main-boxs>#traveling,
+  .main-boxs>#new-member,
+  .main-boxs>#suggest,
+  .main-boxs>#ad-two,
+  .main-boxs>#chat {
     grid-column: 1;
     order: 1;
   }
