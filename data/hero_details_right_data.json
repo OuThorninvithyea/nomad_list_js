@@ -1,0 +1,16 @@
+[
+  {
+    "video": {
+      "src": "images/video1-thumb.jpg",
+      "alt": "video-thumbnail"
+    },
+    "playButton": {
+      "src": "images/pause.svg",
+      "alt": "play-button"
+    },
+    "inputPlaceholder": "Type your email...",
+    "ctaHref": "#join.com",
+    "ctaText": "Join Nomads.com →",
+    "loginText": "if you already have an account, we'll log you in"
+  }
+]

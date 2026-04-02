@@ -1,0 +1,39 @@
+[
+  {
+    "header": "as seen on",
+    "companies": [
+      {
+        "src": "images/newyorktimes.png",
+        "alt": "New York Times"
+      },
+      {
+        "src": "images/ft.png",
+        "alt": "Financial Times"
+      },
+      {
+        "src": "images/bbc.png",
+        "alt": "BBC"
+      },
+      {
+        "src": "images/cnn.png",
+        "alt": "CNN"
+      },
+      {
+        "src": "images/usa-today.png_8.png",
+        "alt": "USA Today"
+      },
+      {
+        "src": "images/cnbc.png",
+        "alt": "CNBC"
+      },
+      {
+        "src": "images/guardian.png",
+        "alt": "The Guardian"
+      },
+      {
+        "src": "images/politico.png",
+        "alt": "Politico"
+      }
+    ]
+  }
+]

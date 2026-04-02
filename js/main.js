@@ -8,9 +8,10 @@ import travalerRedner from "./traveling_func.js";
 import newMembersRender from "./new_members_func.js";
 import suggestRender from "./suggest_func.js";
 import { hoverCardFunc } from "./hover_card_func.js";
-import {renderHeroDetails} from "./hero_detials_build_func.js";
+import { renderHeroDetails } from "./hero_detials_build_func.js";
 import heroDetailsLeftRender from "./hero_details_left_func.js";
 import heroDetailsRightRender from "./hero_details_right_func.js";
+import { trustedCompanyFunc } from "./trsuted_company_func.js";
 
 async function renderBoxs() {
   const response = await fetch("data/boxs_data.json");
@@ -60,14 +61,23 @@ async function renderHoverCardFunc() {
 renderHoverCardFunc();
 
 async function renderHeroDetailsFunc() {
-  const heroDetailsLeftResponse = await fetch("data/hero_detailsLeft_data.json")
-  const heroDetailsLeftData = await heroDetailsLeftResponse.json();
-  const heroDetailsRightResponse = await fetch("data/hero_details_right.json")
-  const heroDetailsRightData = await heroDetailsRightResponse.json();
-  console.log (heroDetailsLeftData);
-  console.log (heroDetailsRightData);
-  renderHeroDetails(".hero-text", heroDetailsLeftData, heroDetailsLeftRender );
-  renderHeroDetails(".hero-card-box", heroDetailsRightData, heroDetailsRightRender );
+  const heroDetailsResponse = await fetch("data/hero_detailsLeft_data.json");
+  const heroDetailsData = await heroDetailsResponse.json();
+  const heroRightResponse = await fetch("data/hero_details_right_data.json");
+  const heroRightData = await heroRightResponse.json();
+
+  console.log(heroDetailsData);
+  renderHeroDetails(".hero-text", heroDetailsData, heroDetailsLeftRender);
+  renderHeroDetails(".hero-card-box", heroRightData, heroDetailsRightRender);
 }
 
 renderHeroDetailsFunc();
+
+async function renderTrustedCompany() {
+  const trustedCompanyRespone = await fetch("data/trusted_company_data.json");
+  const trustedCompanyData = await trustedCompanyRespone.json();
+  console.log(trustedCompanyData);
+  trustedCompanyFunc(".trusted-company", trustedCompanyData);
+}
+
+renderTrustedCompany();

@@ -3,7 +3,7 @@ export function heroDetailsRight(selecter, data) {
     const container = document.querySelector(selecter);
     if (!container) return 
 
-    for ( let i = 0; i < data.length; i++) {
+    for (let i = 0; i < data.length; i++) {
         const heroRightData = data[i];
         html += `
            <span class="video-card-box">
@@ -13,9 +13,9 @@ export function heroDetailsRight(selecter, data) {
           <input type="text" placeholder="&nbsp;&nbsp; ${heroRightData.inputPlaceholder}">
           <a href="${heroRightData.ctaHref}">${heroRightData.ctaText}</a>
           <p>${heroRightData.loginText}</p>
-        `
-        return html;
+        `;
     } 
+    return html;
 } 
 
 const heroDetailsRightRender = heroDetailsRight;

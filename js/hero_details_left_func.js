@@ -6,32 +6,29 @@ export function heroDetailsLeft(selecter, data) {
   for (let i = 0; i < data.length; i++) {
     const heroData = data[i];
 
-    // Generate stars HTML
     let starsHtml = "";
     if (heroData.stars) {
       for (let s = 0; s < heroData.stars; s++) {
-        starsHtml += `<img src="images/star.svg" alt="star">`;
+        heroData.stars ? starsHtml += `<img src="images/star.svg" alt="star">` : starsHtml = "";
       }
     }
     
-    // Generate travelers HTML
     let travelersHtml = "";
     if (heroData.remoteTravelers) {
       for (let t = 0; t < heroData.remoteTravelers.length; t++) {
-        travelersHtml += `<img src="${heroData.remoteTravelers[t]}" alt="profile-photo">`;
+        heroData.remoteTravelers[t] ? travelersHtml += `<img src="${heroData.remoteTravelers[t]}" alt="profile-photo">` : travelersHtml = "";
       }
     } else {
       travelersHtml = "";
     }
 
-    // Generate benefits HTML
     let benefitsHtml = "";
     if (heroData.benefits) {
       for (let b = 0; b < heroData.benefits.length; b++) {
         const benefit = heroData.benefits[b];
-        benefitsHtml += `
+        heroData.benefits[b] ? benefitsHtml += `
           <a href="${benefit.href}">${benefit.emoji} <span class="text-underline">${benefit.text}</span> ${benefit.context}</a>
-        `;
+        ` : benefitsHtml = "";
       }
     }
     else {
