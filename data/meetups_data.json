@@ -9,9 +9,9 @@
       "cityImageAlt": "Asuncion",
       "schedule": "Mon 9th Mar: Barcelona",
       "rsvps": "1 RSVPS",
-      "attendees": [
-        { "img": "images/profile-13.jpg" },
-        { "img": "images/profile-7.jpg" }
+      "attendeeImages": [
+        "images/profile-13.jpg",
+        "images/profile-7.jpg"
       ]
     },
     {
@@ -19,15 +19,15 @@
       "cityImageAlt": "Barcelona",
       "schedule": "Thu 5th Mar: Asuncion",
       "rsvps": "3 RSVPS",
-      "attendees": [
-        { "img": "images/profile-15.jpg" },
-        { "img": "images/profile-4.jpg" },
-        { "img": "images/profile-10.jpg" },
-        { "img": "images/profile-1.jpg" },
-        { "img": "images/profile-8.jpg" },
-        { "img": "images/profile-9.jpg" },
-        { "img": "images/profile-4.webp" },
-        { "img": "images/profile-14.webp" }
+      "attendeeImages": [
+        "images/profile-15.jpg",
+        "images/profile-4.jpg",
+        "images/profile-10.jpg",
+        "images/profile-1.jpg",
+        "images/profile-8.jpg",
+        "images/profile-9.jpg",
+        "images/profile-4.webp",
+        "images/profile-14.webp"
       ]
     }
   ]

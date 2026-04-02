@@ -8,7 +8,7 @@ export function loadingBoxFunc(selecter,boxsData, boxHover) {
   
   for(let i = 0; i < boxsData.length; i++) {
       const box = boxsData[i];
-      const ratings = box.ratings;   
+      const ratings = box.ratings;
       html += `
         <div class="boxs">
         <img class="box-bg" src="${box.image}" alt="${box.alt}">

@@ -1,7 +1,6 @@
 [
   {
-    "cardType": "ad",
-    "type": "ad-one",
+    "cardType": "#ad-one",
     "image": "images/safetywing2021-c-scaled2.png",
     "imageAlt": "saftywing",
     "heading": "Global travel and health coverage for nomads, starting at $2/day",
@@ -10,8 +9,7 @@
     "adLabel": "Ad"
   },
   {
-    "cardType": "ad",
-    "type": "ad-two",
+    "cardType": "#ad-two",
     "image": "images/visa.jpg",
     "imageAlt": "visa",
     "heading": "Get legal residency in 🇪🇸 Spain or 🇵🇹 Portugal. Your one-stop-shop for all your moving needs: visas, taxes, NIFs, bank accounts, and more.",
