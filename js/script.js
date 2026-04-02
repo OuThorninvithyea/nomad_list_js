@@ -7,11 +7,14 @@ const search = document.querySelector(".search-btn-filter");
 
 // Position privacy popup above hovered avatar
 document.addEventListener("mouseover", function (e) {
-  var wrap = e.target.closest(".travler-images");
+  var wrap = e.target.closest(".travler-images, .new-members");
   if (!wrap) return;
-  var popup = wrap.querySelector(".travler-popup-img");
+
+  var popup = wrap.querySelector(".travler-popup-img, .new-members-popup-img");
+  if (!popup) return;
+
   var rect = wrap.getBoundingClientRect();
-  popup.style.left = rect.left + rect.width / 2 - 115 + "px";
+  popup.style.left = rect.left + rect.width / 2 - 110 + "px";
   popup.style.top = rect.bottom + 5 + "px";
 });
 
@@ -24,7 +27,7 @@ filterToggle.addEventListener("click", () => {
   hero.style.display = isHidden ? "none" : "block";
   mainContent.classList.toggle("filter-open", isHidden);
   filterToggle.textContent = isHidden ? "Close filter" : "Filters";
-});∑
+});
 
 // popup ad
 // const popup = document.querySelector('.background-pop-up-ads');
@@ -37,7 +40,7 @@ filterToggle.addEventListener("click", () => {
 
 // core comepare toggle, trun to exit compare
 compare.addEventListener("click", () => {
-  const isActive = compare.textContent === "Exit Com´are";
+  const isActive = compare.textContent === "Exit Compare";
   compare.style.backgroundColor = isActive ? "" : "var(--color-primary)";
   compare.style.color = isActive ? "" : "var(--color-white-default)";
   compare.textContent = isActive ? "Compare" : "Exit Compare";

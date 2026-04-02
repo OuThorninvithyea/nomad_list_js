@@ -5,6 +5,8 @@ import { renderAdsBoxS } from "./render_ads_box.js";
 import meetUpsRender from "./meetups_func.js";
 import todayPickUpRender from "./today_pick_func.js";
 import travalerRedner from "./traveling_func.js";
+import newMembersRender from "./new_members_func.js";
+import suggestRender from "./suggest_func.js";
 
 async function renderBoxs() {
   const response = await fetch("data/boxs_data.json");
@@ -27,13 +29,19 @@ async function renderAds() {
   const todayPickupData = await todayResponse.json();
   const travelingResponse = await fetch("data/traveling_data.json");
   const travelingData = await travelingResponse.json();
+  const newMembersResponse = await fetch("data/new_members_data.json");
+  const newMembersData = await newMembersResponse.json();
+  const suggestResponse = await fetch("data/suggest_data.json");
+  const suggestData = await suggestResponse.json();
   console.log(todayPickupData);
   renderAdsBoxS("#ad-one", adsData, adsBoxsRender);
   renderAdsBoxS("#ad-two", adsData, adsBoxsRender);
   renderAdsBoxS("#chat", chatData, chatBoxsRender);
   renderAdsBoxS("#meetups", meetupsData, meetUpsRender);
-  renderAdsBoxS("#today-pick", todayPickupData, todayPickUpRender);
   renderAdsBoxS("#traveling", travelingData, travalerRedner);
+  renderAdsBoxS("#new-member", newMembersData, newMembersRender);
+  renderAdsBoxS("#suggest", suggestData, suggestRender);
+  renderAdsBoxS("#today-pick", todayPickupData, todayPickUpRender);
 }
 
 renderAds();

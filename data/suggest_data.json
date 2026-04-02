@@ -1,7 +1,7 @@
-{
+[{
   "cardType": "suggest",
   "label": "nomad.com suggestion",
-  "image": "images/portugal.webp",
+  "image": "images/phnopenh.webp",
   "imageAlt": "Porto",
   "rank": 1,
   "speed": 65,
@@ -14,3 +14,4 @@
   "aqiEmoji": "😷",
   "cost": "$2200/mo"
 }
+]

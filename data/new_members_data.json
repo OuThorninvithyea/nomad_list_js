@@ -1,4 +1,5 @@
-{
+[
+  {
   "cardType": "profileGrid",
   "header": "👋 New members (608/mo)",
   "privacyText": "Hidden for non-members due to privacy",
@@ -29,3 +30,4 @@
     { "thumb": "images/profile-14.jpg", "blur": "images/profile-14.jpg" }
   ]
 }
+]

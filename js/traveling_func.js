@@ -1,4 +1,6 @@
 export function traverlingFunc(selector, data) {
+    const container = document.querySelector(selector);
+    if(!container) return;
     let html = "";
     
     html += `<div class="sidebar-hero-text"><h3>${data.header}</h3></div>`;
