@@ -1,4 +1,6 @@
 export function todayPickFunc(selector, data) {
+    const container = document.querySelector(selector);
+    if(!container) return;
     let html = "";
 
     for (let i = 0; i < data.length; i++) {

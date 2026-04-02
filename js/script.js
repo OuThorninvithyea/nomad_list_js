@@ -24,7 +24,7 @@ filterToggle.addEventListener("click", () => {
   hero.style.display = isHidden ? "none" : "block";
   mainContent.classList.toggle("filter-open", isHidden);
   filterToggle.textContent = isHidden ? "Close filter" : "Filters";
-});
+});∑
 
 // popup ad
 // const popup = document.querySelector('.background-pop-up-ads');
@@ -37,7 +37,7 @@ filterToggle.addEventListener("click", () => {
 
 // core comepare toggle, trun to exit compare
 compare.addEventListener("click", () => {
-  const isActive = compare.textContent === "Exit Compare";
+  const isActive = compare.textContent === "Exit Com´are";
   compare.style.backgroundColor = isActive ? "" : "var(--color-primary)";
   compare.style.color = isActive ? "" : "var(--color-white-default)";
   compare.textContent = isActive ? "Compare" : "Exit Compare";
