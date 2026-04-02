@@ -1,5 +1,5 @@
 import { loadingBoxFunc } from "./boxs_func.js";
-import adsBoxsRender from "./ads_box.js"; 
+import adsBoxsRender from "./ads_box.js";
 import chatBoxsRender from "./chat_func.js";
 import { renderAdsBoxS } from "./render_ads_box.js";
 import meetUpsRender from "./meetups_func.js";
@@ -7,6 +7,10 @@ import todayPickUpRender from "./today_pick_func.js";
 import travalerRedner from "./traveling_func.js";
 import newMembersRender from "./new_members_func.js";
 import suggestRender from "./suggest_func.js";
+import { hoverCardFunc } from "./hover_card_func.js";
+import {renderHeroDetails} from "./hero_detials_build_func.js";
+import heroDetailsLeftRender from "./hero_details_left_func.js";
+import heroDetailsRightRender from "./hero_details_right_func.js";
 
 async function renderBoxs() {
   const response = await fetch("data/boxs_data.json");
@@ -18,14 +22,14 @@ async function renderBoxs() {
 
 renderBoxs();
 
-async function renderAds() {
+async function renderAdsFunc() {
   const response = await fetch("data/ads_data.json");
   const chatResponse = await fetch("data/chat_data.json");
   const adsData = await response.json();
   const chatData = await chatResponse.json();
   const meetupsResponse = await fetch("data/meetups_data.json");
   const meetupsData = await meetupsResponse.json();
-  const todayResponse = await fetch( "data/today_pick_data.json")
+  const todayResponse = await fetch("data/today_pick_data.json")
   const todayPickupData = await todayResponse.json();
   const travelingResponse = await fetch("data/traveling_data.json");
   const travelingData = await travelingResponse.json();
@@ -44,4 +48,26 @@ async function renderAds() {
   renderAdsBoxS("#today-pick", todayPickupData, todayPickUpRender);
 }
 
-renderAds();
+renderAdsFunc();
+
+async function renderHoverCardFunc() {
+  const hoverCardResponse = await fetch("data/hover_card_data.json");
+  const hoverCardData = await hoverCardResponse.json();
+  console.log(hoverCardData)
+  hoverCardFunc(".hover-card", hoverCardData);
+}
+
+renderHoverCardFunc();
+
+async function renderHeroDetailsFunc() {
+  const heroDetailsLeftResponse = await fetch("data/hero_detailsLeft_data.json")
+  const heroDetailsLeftData = await heroDetailsLeftResponse.json();
+  const heroDetailsRightResponse = await fetch("data/hero_details_right.json")
+  const heroDetailsRightData = await heroDetailsRightResponse.json();
+  console.log (heroDetailsLeftData);
+  console.log (heroDetailsRightData);
+  renderHeroDetails(".hero-text", heroDetailsLeftData, heroDetailsLeftRender );
+  renderHeroDetails(".hero-card-box", heroDetailsRightData, heroDetailsRightRender );
+}
+
+renderHeroDetailsFunc();
