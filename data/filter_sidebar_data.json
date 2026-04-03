@@ -1,0 +1,487 @@
+[
+  {
+    "header": "WHAT",
+    "rows": [
+      {
+        "classes": "row-filter",
+        "items": [
+          {
+            "text": "🍦 Cold Now",
+            "tooltip": "Filter by cold weather",
+            "classes": "tooltip"
+          },
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "Filter by mild weather",
+            "classes": "tooltip"
+          },
+          {
+            "text": "☀️ Warm now",
+            "tooltip": "Filter by warm weather",
+            "classes": "tooltip"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter",
+        "items": [
+          {
+            "text": "💵<US$1k/mo",
+            "tooltip": "Filter by cold weather",
+            "classes": "tooltip"
+          },
+          {
+            "text": "💵<US$2k/mo",
+            "tooltip": "Filter by mild weather",
+            "classes": "tooltip"
+          },
+          {
+            "text": "💵<US$3k/mo",
+            "tooltip": "Filter by warm weather",
+            "classes": "tooltip"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "👮‍ Safe",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "📡 Fast interne",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "💨 Clean air now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "👍 Liked by members",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🔥 Popular now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "📈 Growing in nomads",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two stick",
+        "items": [
+          {
+            "text": "🏅 Top ranked",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "💎 Hidden gem",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "✨ You haven't been",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "✨ For you",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🇸🇬 Near Singapore",
+            "tooltip": "",
+            "classes": "tooltip two-btn-one-box"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "WHERE",
+    "grid": {
+      "classes": "where-grid",
+      "items": [
+        {
+          "text": "🌎North America",
+          "tooltip": "🌎North America",
+          "element": "h3",
+          "classes": "tooltip"
+        },
+        {
+          "text": "💃Latin America ",
+          "tooltip": "💃Latin America ",
+          "element": "h3",
+          "classes": "tooltip"
+        },
+        {
+          "text": "🇪🇺Europe",
+          "tooltip": "🇪🇺Europe",
+          "element": "h3",
+          "classes": "tooltip"
+        },
+        {
+          "text": "🌎Africa",
+          "tooltip": "🌎Africa",
+          "element": "h3",
+          "classes": "tooltip"
+        },
+        {
+          "text": "🕌 Middle East",
+          "tooltip": "🕌 Middle East",
+          "element": "h3",
+          "classes": "tooltip"
+        },
+        {
+          "text": "⛩️ Asia",
+          "tooltip": "⛩️ Asia",
+          "element": "h3",
+          "classes": "tooltip"
+        },
+        {
+          "text": "🏄Oceania",
+          "tooltip": "",
+          "element": "h3",
+          "classes": "tooltip"
+        },
+        {
+          "text": "🛰️Space",
+          "tooltip": "",
+          "element": "h3",
+          "classes": "tooltip"
+        }
+      ]
+    },
+    "rows": [
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🇺🇸 United States",
+            "tooltip": "🇺🇸 United States",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "🏝 Caribbean",
+            "tooltip": "🏝 Caribbean",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🇪🇺 European Union",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "🇪🇺 Not in Schengen",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🤝 Easy to make friends",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "❤️ Great for dating",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "WHEN",
+    "rows": [
+      {
+        "classes": "row-filter two stick",
+        "items": [
+          {
+            "text": "☃️ In the winter",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "♻️ All year round",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      }
+    ],
+    "grid": {
+      "classes": "where-grid when",
+      "items": [
+        {
+          "text": "Jan",
+          "element": "h3"
+        },
+        {
+          "text": "Feb",
+          "element": "h3"
+        },
+        {
+          "text": "Mar",
+          "element": "h3"
+        },
+        {
+          "text": "Apr",
+          "element": "h3"
+        },
+        {
+          "text": "May",
+          "element": "h3"
+        },
+        {
+          "text": "Jun",
+          "element": "h3"
+        },
+        {
+          "text": "Jul",
+          "element": "h3"
+        },
+        {
+          "text": "Aug",
+          "element": "h3"
+        },
+        {
+          "text": "Sep",
+          "element": "h3"
+        },
+        {
+          "text": "Oct",
+          "element": "h3"
+        },
+        {
+          "text": "Nov",
+          "element": "h3"
+        },
+        {
+          "text": "Dec",
+          "element": "h3"
+        }
+      ]
+    }
+  },
+  {
+    "header": "WHEN",
+    "rows": [
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🤩 Exceptional (4.75+)",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": " 😍 Very good (4.5+)",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "👍 Good (4.25+)",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "😐 Okay (3+)",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "VISA FREE FOR",
+    "rows": [
+      {
+        "type": "select",
+        "id": "select-pass-2",
+        "classes": "row-filter passport",
+        "options": [
+          "Afganistan",
+          "Albania",
+          "Algeria",
+          "Andorra",
+          "Angola"
+        ]
+      },
+      {
+        "type": "divider",
+        "text": "+"
+      },
+      {
+        "type": "select",
+        "id": "select-pass-3",
+        "classes": "row-filter passport",
+        "options": [
+          "Afganistan",
+          "Albania",
+          "Algeria",
+          "Andorra",
+          "Angola"
+        ]
+      },
+      {
+        "type": "divider",
+        "text": "+"
+      },
+      {
+        "type": "select",
+        "id": "select-pass",
+        "classes": "row-filter passport",
+        "options": [
+          "Afganistan",
+          "Albania",
+          "Algeria",
+          "Andorra",
+          "Angola"
+        ]
+      }
+    ]
+  },
+  {
+    "header": "OTHER TIMES",
+    "rows": [
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      },
+      {
+        "classes": "row-filter two",
+        "items": [
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          },
+          {
+            "text": "🌤️ Mild now",
+            "tooltip": "",
+            "classes": "tooltip two-btn"
+          }
+        ]
+      }
+    ]
+  }
+]

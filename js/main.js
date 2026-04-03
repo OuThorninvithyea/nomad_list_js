@@ -20,7 +20,8 @@ import compareBtnRender from "./compare_btn_func.js";
 import gridViewRender from "./grid_view_btn.js";
 import nomadScoreBtnRender from "./nomad_btn_func.js";
 import joinNomadRender from "./join_nomad_func.js";
-
+import { filterSideBarFunc } from "./fitler_sidebar_func.js";
+import { initSidebarState } from "./script.js";
 
 async function renderBoxs() {
   const response = await fetch("data/boxs_data.json");
@@ -115,5 +116,14 @@ async function renderAllofBtns() {
 renderAllofBtns();
 
 
+async function renderFilterSidebar() {
+  const filterSidebarResponse = await fetch("data/filter_sidebar_data.json");
+  const filterSidebarData = await filterSidebarResponse.json();
+  console.log(filterSidebarData);
+  filterSideBarFunc("#sidebar-target", filterSidebarData);
 
-  
+  // Initialize the sidebar state (Open by default)
+  initSidebarState();
+}
+
+renderFilterSidebar();
