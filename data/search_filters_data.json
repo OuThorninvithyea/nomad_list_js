@@ -1,0 +1,128 @@
+[
+  { "type": "header", "text": "WHAT" },
+  {
+    "type": "row",
+    "items": [
+      { "text": "🍦 Cold Now", "tooltip": "Filter by cold weather" },
+      { "text": "🌤️ Mild now", "tooltip": "Filter by mild weather" },
+      { "text": "☀️ Warm now", "tooltip": "Filter by warm weather" }
+    ]
+  },
+  {
+    "type": "row",
+    "items": [
+      { "text": "💵<US$1k/mo", "tooltip": "Filter by cost < 1k" },
+      { "text": "💵<US$2k/mo", "tooltip": "Filter by cost < 2k" },
+      { "text": "💵<US$3k/mo", "tooltip": "Filter by cost < 3k" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "👮‍ Safe", "tooltip": "Filter by safety" },
+      { "text": "📡 Fast interne", "tooltip": "Filter by internet speed" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "💨 Clean air now", "tooltip": "Filter by air quality" },
+      { "text": "👍 Liked by members", "tooltip": "Filter by member likes" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "🔥 Popular now", "tooltip": "Filter by popularity" },
+      { "text": "📈 Growing in nomads", "tooltip": "Filter by growth" }
+    ]
+  },
+  {
+    "type": "row-two-stick",
+    "items": [
+      { "text": "🏅 Top ranked", "tooltip": "Filter by ranking" },
+      { "text": "💎 Hidden gem", "tooltip": "Filter by hidden gems" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "✨ You haven't been", "tooltip": "Places you haven't visited" },
+      { "text": "✨ For you", "tooltip": "Recommendations for you" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "🇸🇬 Near Singapore", "tooltip": "Filter by proximity to Singapore", "class": "two-btn-one-box" }
+    ]
+  },
+  { "type": "header", "text": "WHERE" },
+  {
+    "type": "where-grid",
+    "items": [
+      { "text": "🌎North America", "tooltip": "🌎North America" },
+      { "text": "💃Latin America", "tooltip": "💃Latin America" },
+      { "text": "🇪🇺Europe", "tooltip": "🇪🇺Europe" },
+      { "text": "🌎Africa", "tooltip": "🌎Africa" },
+      { "text": "🕌 Middle East", "tooltip": "🕌 Middle East" },
+      { "text": "⛩️ Asia", "tooltip": "⛩️ Asia" },
+      { "text": "🏄Oceania", "tooltip": "Oceania" },
+      { "text": "🛰️Space", "tooltip": "Space" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "🇺🇸 United States", "tooltip": "🇺🇸 United States" },
+      { "text": "🏝 Caribbean", "tooltip": "🏝 Caribbean" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "🇪🇺 European Union", "tooltip": "European Union" },
+      { "text": "🇪🇺 Not in Schengen", "tooltip": "Not in Schengen" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "🤝 Easy to make friends", "tooltip": "Easy to make friends" },
+      { "text": "❤️ Great for dating", "tooltip": "Great for dating" }
+    ]
+  },
+  { "type": "header", "text": "WHEN" },
+  {
+    "type": "row-two-stick",
+    "items": [
+      { "text": "☃️ In the winter", "tooltip": "Winter" },
+      { "text": "♻️ All year round", "tooltip": "All year" }
+    ]
+  },
+  {
+    "type": "where-grid-when",
+    "items": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  },
+  { "type": "header", "text": "RATING" },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "🤩 Exceptional (4.75+)", "tooltip": "Exceptional" },
+      { "text": "😍 Very good (4.5+)", "tooltip": "Very good" }
+    ]
+  },
+  {
+    "type": "row-two",
+    "items": [
+      { "text": "👍 Good (4.25+)", "tooltip": "Good" },
+      { "text": "😐 Okay (3+)", "tooltip": "Okay" }
+    ]
+  },
+  { "type": "header", "text": "VISA FREE FOR" },
+  { "type": "select", "id": "select-pass-2", "placeholder": "select your passport", "options": ["🇦🇫 Afganistan"] },
+  { "type": "plus" },
+  { "type": "select", "id": "select-pass-3", "placeholder": "select your passport", "options": ["🇦🇫 Afganistan"] },
+  { "type": "plus" },
+  { "type": "select", "id": "select-pass", "placeholder": "select your passport", "options": ["🇦🇫 Afganistan"] }
+]

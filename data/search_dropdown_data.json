@@ -1,0 +1,53 @@
+[
+  [
+    { "text": "🍦 Cold now", "tooltip": "Temprature<20c " },
+    { "text": "🌤️ Mild now", "tooltip": "Temprature<20c " },
+    { "text": "☀️ Warm now", "tooltip": "Temprature<20c " },
+    { "text": "💵 &lt;US$1K/mo", "tooltip": "Cost < 1k " },
+    { "text": "💵 &lt;US$2K/mo", "tooltip": "Cost < 2k " },
+    { "text": "💵 &lt;US$3K/mo", "tooltip": "Cost < 3k " },
+    { "text": "👮 Safe", "tooltip": "High safety " },
+    { "text": "📡 Fast internet", "tooltip": "Internet > 10mbps " },
+    { "text": "💨 Clean air now", "tooltip": "AQI < 50 " },
+    { "text": "👍 Liked by members", "tooltip": "Member approval " },
+    { "text": "🔥 Popular now", "tooltip": "Trending " },
+    { "text": "📈 Growing in nomads", "tooltip": "Fast growth " },
+    { "text": "🏅 Top ranked", "tooltip": "Overall score " },
+    { "text": "💎 Hidden gem", "tooltip": "Less crowded " },
+    { "text": "✨ You haven't been", "tooltip": "New places " }
+  ],
+  [
+    { "text": "✨ For you", "tooltip": "Recommendations " },
+    { "text": "🇰🇭 Near Cambodia", "tooltip": "Regional " },
+    { "text": "🌎 North America", "tooltip": "Continents " },
+    { "text": "💃 Latin America", "tooltip": "Continents " },
+    { "text": "🇪🇺 Europe", "tooltip": "Continents " },
+    { "text": "🌍 Africa", "tooltip": "Continents " },
+    { "text": "🕌 Middle East", "tooltip": "Continents " },
+    { "text": "⛩️ Asia", "tooltip": "Continents " },
+    { "text": "🏄 Oceania", "tooltip": "Continents " },
+    { "text": "🛰️ Space", "tooltip": "Continents " },
+    { "text": "🇺🇸 United States", "tooltip": "Countries " },
+    { "text": "🏝️ Caribbean", "tooltip": "Regions " },
+    { "text": "🇪🇺 European Union", "tooltip": "Unions " },
+    { "text": "🇪🇺 Not in Schengen", "tooltip": "Schengen area " },
+    { "text": "🤝 Easy to make friends", "tooltip": "Social " }
+  ],
+  [
+    { "text": "❤️ Great for dating", "tooltip": "Social " },
+    { "text": "☃️ In the winter", "tooltip": "Seasonal " },
+    { "text": "♻️ All year round", "tooltip": "Seasonal " },
+    { "text": "📅 Jan", "tooltip": "Months " },
+    { "text": "📅 Feb", "tooltip": "Months " },
+    { "text": "📅 Mar", "tooltip": "Months " },
+    { "text": "📅 Apr", "tooltip": "Months " },
+    { "text": "📅 May", "tooltip": "Months " },
+    { "text": "📅 Jun", "tooltip": "Months " },
+    { "text": "📅 Jul", "tooltip": "Months " },
+    { "text": "📅 Aug", "tooltip": "Months " },
+    { "text": "📅 Sep", "tooltip": "Months " },
+    { "text": "📅 Oct", "tooltip": "Months " },
+    { "text": "📅 Nov", "tooltip": "Months " },
+    { "text": "📅 Dec", "tooltip": "Months " }
+  ]
+]

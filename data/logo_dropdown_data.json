@@ -1,0 +1,77 @@
+[
+  {
+    "sectionClass": "header-logo-clicked-info",
+    "items": [
+      { "text": "Join Nomads.com", "emoji": "🌍" },
+      { "text": "Log in", "emoji": "👋" }
+    ]
+  },
+  {
+    "title": "GENERAL",
+    "items": [
+      { "text": "Log in", "emoji": "👋" },
+      { "text": "Frontpage", "emoji": "🏠" },
+      { "text": "Dark mode", "emoji": "🌗" },
+      { "text": "Your favorites", "emoji": "❤️" },
+      { "text": "Nomad insurance", "emoji": "🚑" }
+    ]
+  },
+  {
+    "title": "COMMUNITY",
+    "items": [
+      { "text": "Dating app", "emoji": "❤️" },
+      { "text": "Friend finder", "emoji": "🤝" },
+      { "text": "Chat", "emoji": "💬" },
+      { "text": "Members map", "emoji": "🌍" },
+      { "text": "Host meetup", "emoji": "💈", "badge": "NEW" },
+      { "text": "Attend meetup", "emoji": "🍹" }
+    ]
+  },
+  {
+    "title": "TOOLS",
+    "items": [
+      { "text": "Explore", "emoji": "🏕️" },
+      { "text": "NomadGPT", "emoji": "🎒" },
+      { "text": "Vote on photos", "emoji": "📸" },
+      { "text": "Residence calendar", "emoji": "🗓️" },
+      { "text": "FIRE calculator", "emoji": "💸" },
+      { "text": "Climate finder", "emoji": "🌤️" },
+      { "text": "Fastest growing", "emoji": "💥" },
+      { "text": "Nomad stats", "emoji": "📊", "badge": "NEW" },
+      { "text": "State of remote work", "emoji": "🧪", "badge": "NEW" },
+      { "text": "History of nomads", "emoji": "📜", "badge": "NEW" },
+      { "text": "Network graph", "emoji": "🕸️" },
+      { "text": "Fastest internet", "emoji": "🔌", "tooltip": ">10mbps" },
+      { "text": "Best place now", "emoji": "🏆" },
+      { "text": "Random place", "emoji": "🔮" },
+      { "text": "Random good place", "emoji": "🔮" }
+    ]
+  },
+  {
+    "title": "HELP",
+    "items": [
+      { "text": "Ideas + bugs", "emoji": "💡" },
+      { "text": "Changelog", "emoji": "🚀" },
+      { "text": "Merch", "emoji": "🛍️" },
+      { "text": "FAQ & Help", "emoji": "🛟" },
+      { "text": "TOS & Privacy policy", "emoji": "👩‍💼" }
+    ]
+  },
+  {
+    "title": "OTHER PROJECTS",
+    "items": [
+      { "text": "Hotel List", "emoji": "🏥" },
+      { "text": "Remote jobs", "emoji": "🛰️" },
+      { "text": "Airline List", "emoji": "✈️" },
+      { "text": "Neighborhoods", "emoji": "🗺️" },
+      { "text": "Pieter", "emoji": "💾" },
+      { "text": "fly.pieter.com", "emoji": "✈️" },
+      { "text": "Coworkations", "emoji": "🏝️" },
+      { "text": "Nomad Cafe", "emoji": "☕" },
+      { "text": "Interior AI", "emoji": "🏡" },
+      { "text": "Photo AI", "emoji": "📸" },
+      { "text": "eu/acc", "emoji": "🇪🇺" },
+      { "text": "JSON.pub", "emoji": "📄" }
+    ]
+  }
+]

@@ -1019,6 +1019,7 @@ outline: 4px solid rgba(249, 153, 150, 0.85);
 /* Show dropdown as grid when search input is focused */
 .search-filter:focus-within .search-dropdown {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 /* Show dropdown as grid when search input is focused */
 

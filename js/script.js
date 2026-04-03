@@ -2,7 +2,8 @@ const filterSidebar = document.querySelector(".filter-sidebar");
 const filterToggle = document.querySelector(".filter-toggle");
 const mainContent = document.querySelector(".main-content");
 const hero = document.querySelector(".hero");
-const compare = document.querySelector(".compare-filter");
+// const compare = document.querySelector(".compare-filter");
+
 const search = document.querySelector(".search-btn-filter");
 
 // Position privacy popup above hovered avatar
@@ -39,12 +40,20 @@ filterToggle.addEventListener("click", () => {
 // }
 
 // core comepare toggle, trun to exit compare
-compare.addEventListener("click", () => {
-  const isActive = compare.textContent === "Exit Compare";
-  compare.style.backgroundColor = isActive ? "" : "var(--color-primary)";
-  compare.style.color = isActive ? "" : "var(--color-white-default)";
-  compare.textContent = isActive ? "Compare" : "Exit Compare";
+document.addEventListener("click", (e) => {
+  const compareBtn = e.target.closest(".compare-filter");
+  if (!compareBtn) return;
+
+  const label = compareBtn.querySelector(".compare-label");
+  if (!label) return;
+
+  const isActive = label.textContent === "Exit Compare";
+  compareBtn.style.backgroundColor = isActive ? "" : "var(--color-primary)";
+  compareBtn.style.color = isActive ? "" : "var(--color-white-default)";
+  label.textContent = isActive ? "Compare" : "Exit Compare";
 });
+
+
 
 // Close footer banner
 document.querySelector('.footer-close-btn').addEventListener('click', function () {

@@ -12,6 +12,15 @@ import { renderHeroDetails } from "./hero_detials_build_func.js";
 import heroDetailsLeftRender from "./hero_details_left_func.js";
 import heroDetailsRightRender from "./hero_details_right_func.js";
 import { trustedCompanyFunc } from "./trsuted_company_func.js";
+import logoDropDownRender from "./logo_dropDown_func.js";
+import { renderDropDown } from "./drop_down_func.js";
+import searchDropDownRender from "./search_drop_down.js";
+import { renderAllBtns } from "./render_btns.js";
+import compareBtnRender from "./compare_btn_func.js";
+import gridViewRender from "./grid_view_btn.js";
+import nomadScoreBtnRender from "./nomad_btn_func.js";
+import joinNomadRender from "./join_nomad_func.js";
+
 
 async function renderBoxs() {
   const response = await fetch("data/boxs_data.json");
@@ -81,3 +90,30 @@ async function renderTrustedCompany() {
 }
 
 renderTrustedCompany();
+
+async function renderAllDropDown() {
+  const logoDropDownRespone = await fetch("data/logo_dropdown_data.json");
+  const logoDropDownData = await logoDropDownRespone.json();
+  const seachFitlerRespone = await fetch("data/search_dropdown_data.json")
+  const searchFilterData = await seachFitlerRespone.json();
+  console.log(searchFilterData);
+  renderDropDown("#logo-dropdown-menu", logoDropDownData, logoDropDownRender)
+  renderDropDown(".search-filter", searchFilterData, searchDropDownRender)
+}
+
+renderAllDropDown();
+
+
+
+async function renderAllofBtns() {
+  renderAllBtns(".filters-right-side", "Compare", compareBtnRender);
+  renderAllBtns(".filters-right-side", "Grid View", gridViewRender);
+  renderAllBtns(".filters-right-side", "Nomad Score", nomadScoreBtnRender); 
+  renderAllBtns(".filters-right-side", "Join Nomads.com →", joinNomadRender);
+}
+
+renderAllofBtns();
+
+
+
+  
