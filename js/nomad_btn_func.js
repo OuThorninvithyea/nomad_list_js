@@ -21,7 +21,6 @@ export function nomadScoreBtn() {
                 </div>
     `
 }
-
 const nomadScoreBtnRender = nomadScoreBtn;
 
 export default nomadScoreBtnRender;

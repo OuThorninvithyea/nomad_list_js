@@ -104,8 +104,6 @@ async function renderAllDropDown() {
 
 renderAllDropDown();
 
-
-
 async function renderAllofBtns() {
   renderAllBtns(".filters-right-side", "Compare", compareBtnRender);
   renderAllBtns(".filters-right-side", "Grid View", gridViewRender);
@@ -114,7 +112,6 @@ async function renderAllofBtns() {
 }
 
 renderAllofBtns();
-
 
 async function renderFilterSidebar() {
   const filterSidebarResponse = await fetch("data/filter_sidebar_data.json");
